@@ -1,65 +1,60 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thomas de Saint Savin | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thomas de Saint Savin — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-    <h1>Thomas de Saint Savin</h1>
-    <p>Étudiant en ingénierie mathématique & finance quantitative — IMT Atlantique</p>
-    <nav>
-      <a href="#about">À propos</a>
-      <a href="#projects">Projets</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <h1>Thomas de Saint Savin</h1>
+      <p class="subtitle">Quantitative Finance | Machine Learning | Data Science</p>
+      <div class="socials">
+        <a href="https://github.com/thomasdesaintsavin" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/thomasdesaintsavin" target="_blank">LinkedIn</a>
+        <a href="mailto:thomas.desaintsavin@example.com">Contact</a>
+      </div>
+    </div>
   </header>
 
-  <section id="about" class="section">
-    <h2>À propos</h2>
+  <section class="about container">
+    <h2>About Me</h2>
     <p>
-      Passionné par les marchés financiers, les modèles quantitatifs et l'analyse de données,
-      j'explore l’intersection entre les mathématiques appliquées, la programmation et la finance.
-      J’étudie à <strong>IMT Atlantique</strong> et développe des projets orientés vers la modélisation,
-      le backtesting et le pricing d’actifs dérivés.
+      Passionate about quantitative finance and data-driven analysis, I combine strong mathematical foundations with programming skills in Python, R, and SQL.  
+      Currently studying at IMT Atlantique and working on projects involving financial modeling, risk analysis, and portfolio optimization.
     </p>
   </section>
 
-  <section id="projects" class="section">
-    <h2>Projets récents</h2>
+  <section class="projects container">
+    <h2>Selected Projects</h2>
 
-    <div class="project">
-      <h3> MultiFactor Quant Strategy</h3>
-      <p>Développement et backtesting d’une stratégie multifactorielle sur la plateforme <strong>QuantConnect</strong> (LEAN API).</p>
-      <a href="https://github.com/thomasdesaintsavin/MultiFactor-Quant-Strategy" target="_blank">→ Voir sur GitHub</a>
+    <div class="grid">
+      <div class="card">
+        <h3>Multi-Factor Quant Strategy</h3>
+        <p>QuantConnect backtest using factor exposure (Value, Momentum, Quality). Python + LEAN API.</p>
+        <a href="https://github.com/thomasdesaintsavin/MultiFactor-Quant-Strategy" target="_blank">→ View on GitHub</a>
+      </div>
+
+      <div class="card">
+        <h3>Black-Scholes Pricing</h3>
+        <p>Python model of the Black-Scholes option pricing formula with Greeks and interactive visualizations.</p>
+        <a href="https://github.com/thomasdesaintsavin/black-scholes-pricing" target="_blank">→ View on GitHub</a>
+      </div>
+
+      <div class="card">
+        <h3>Education & Growth Project</h3>
+        <p>Econometric analysis of education and economic growth (World Bank data 2000–2023).</p>
+        <a href="https://github.com/thomasdesaintsavin/projet-croissance-education" target="_blank">→ View on GitHub</a>
+      </div>
     </div>
-
-    <div class="project">
-      <h3> Black-Scholes Pricing</h3>
-      <p>Implémentation du modèle de Black-Scholes en Python, calcul des Greeks et génération de graphiques interactifs.</p>
-      <a href="https://github.com/thomasdesaintsavin/black-scholes-pricing" target="_blank">→ Voir sur GitHub</a>
-    </div>
-
-    <div class="project">
-      <h3> Croissance & Éducation (Économétrie)</h3>
-      <p>Analyse de la relation entre éducation et croissance économique (Banque Mondiale, 2000–2023),
-      sous <strong>Jupyter Notebook</strong>.</p>
-      <a href="https://github.com/thomasdesaintsavin/projet-croissance-education" target="_blank">→ Voir sur GitHub</a>
-    </div>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>📧 <a href="mailto:thomasdesaintsavin@gmail.com">thomasdesaintsavin@gmail.com</a></p>
-    <p>💼 <a href="https://www.linkedin.com/in/thomas-d-b157832a1/" target="_blank">LinkedIn</a> · 
-       <a href="https://github.com/thomasdesaintsavin" target="_blank">GitHub</a></p>
   </section>
 
   <footer>
-    <p>© 2025 Thomas de Saint Savin — Portfolio personnel</p>
+    <p>© 2025 Thomas de Saint Savin — All rights reserved</p>
   </footer>
 </body>
 </html>
+
